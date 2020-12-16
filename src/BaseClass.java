@@ -67,7 +67,7 @@ public class BaseClass {
                 System.out.println("Not ehough money, order cancelled");
                 ip.orderCancel(balance2);
             }
-            ip.orderConfirm(products, productsCounter, cost, balance2);
+            else ip.orderConfirm(products, productsCounter, cost, balance2);
         }
         else ip.orderCancel(balance2);
 
